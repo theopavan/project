@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Page1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Page1</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <br/>
+  <br/>
+
+  <a routerLink="/page2" routerDirection="forward">Page2</a>
+
+  <div id="container">
+    <p>In iOS click <strong>Page2</strong> to navigate and look at the back button animation.</p>
+  </div>
+</ion-content>

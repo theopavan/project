@@ -1,0 +1,21 @@
+<ion-app>
+
+  <ion-menu contentId="menu-content" type="overlay">
+    <ion-content>
+      <ion-list lines="none">
+        <ion-menu-toggle auto-hide="false">
+          <a routerLink="/home" routerDirection="root">Home</a>
+        </ion-menu-toggle>
+        <ion-menu-toggle auto-hide="false">
+          <a routerLink="/page1" routerDirection="root">Page1</a>
+        </ion-menu-toggle>
+        <ion-menu-toggle auto-hide="false">
+          <a routerLink="/page2" routerDirection="root">Page2</a>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet id="menu-content"></ion-router-outlet>
+
+</ion-app>
